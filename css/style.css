@@ -1,0 +1,61 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body{
+  color: #000;
+  background: #007299;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.status{
+  margin: 3% auto;
+  background: rgba(255, 255, 255, .8);
+  width: 33%;
+  padding: 20px;
+  border-radius: 25px;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.4);
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: #FFF;
+  letter-spacing: .4px;
+}
+
+.status p{
+  font-size: 1.7em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#weatherIcon{
+  margin: 0;
+  padding: 0;
+}
+
+#changeTempUnit{
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: #FFF;
+  background: #007299;
+  outline: none;
+  font-size: 1em;
+  padding: 10px 15px 10px 15px;
+  margin-top: 35px;
+  opacity: 1;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+#city, #country{
+  font-size: 1.8em;
+}
+
+#temp, #tempUnit{
+  font-size: 1.5em;
+}
